@@ -1,0 +1,35 @@
+<checks>
+<check
+		title="Model Errors"
+      	modelfile="appmagyar.rich"
+      	modelbasepath="//error"
+      	modelnamepath="@type"
+      	modelvaluepath="concat(//element[@id=current()/@element]/@name,' ',@name)"
+        modelerrorid="$p1/object/error/@errorID"
+      	inputfile="appmagyar.rich"
+      	referencemodel="appmagyar.rich"
+      	inputbasepath="//nonexistent"
+      	inputnamepath=""
+      	inputvaluepath=""
+        inputerrorid="$p1"
+        errorURL="concat('http://adadocs.demokracia.rulez.org/PDEngine/edemo/master/index.html#',$p1)"
+        errortitlestring="zenta:modelErrorTitle($p1,$p4)"
+        errordescription="zenta:modelErrorDescription($p1,$p4)"
+      	/>
+<check
+		title="Unimplemented behaviours"
+      	modelfile="shippable/appmagyar-testcases.xml"
+      	modelbasepath="//testcase"
+      	modelnamepath="@name"
+      	modelvaluepath="''"
+        modelerrorid="zenta:engineErrorId($p1)"
+      	inputfile="shippable/appmagyar-implementedTestCases.xml"
+      	inputbasepath="//testcase"
+      	inputnamepath="@modelmatch"
+      	inputvaluepath="''"
+        inputerrorid="$p1//object/testcase/@name"
+        errorURL="concat('http://adadocs.demokracia.rulez.org/PDEngine/edemo/master/index.html#',$p1)"
+        errortitlestring="zenta:engineErrorTitle($p1)"
+        errordescription="zenta:engineErrorDescription($p1, $p2)"
+      	/>
+</checks>
