@@ -494,8 +494,8 @@ The function is atomic: only a single transaction.</documentation>
   </folder>
   <folder name="2 AppMagyar system" id="97f616c6-98ea-4233-8faf-0d42fd2516fa">
     <folder name="1. Security Environment" id="d0b9cc13-7472-4926-a383-a30181b2af39">
-      <element xsi:type="zenta:BasicObject" name="The certification process should be smooth for the assurer" id="af66df89-4666-4e91-ad2b-977a5598c798" ancestor="e1d3f9d2-3886-41be-9150-a18a2e5a649a"/>
-      <element xsi:type="zenta:BasicObject" name="The certification process should be smooth for the user" id="b045e7e9-825a-4d12-94a8-1228e5cd49cb" ancestor="e1d3f9d2-3886-41be-9150-a18a2e5a649a"/>
+      <element xsi:type="zenta:BasicObject" name="The assurance process should be smooth for the assurer" id="af66df89-4666-4e91-ad2b-977a5598c798" ancestor="e1d3f9d2-3886-41be-9150-a18a2e5a649a"/>
+      <element xsi:type="zenta:BasicObject" name="The assurance process should be smooth for the user" id="b045e7e9-825a-4d12-94a8-1228e5cd49cb" ancestor="e1d3f9d2-3886-41be-9150-a18a2e5a649a"/>
       <element xsi:type="zenta:BasicObject" name="The security level of the process should not be worse than that of the banks like Revolut and Monzo" id="0268c058-8403-402f-a0c8-a75399665dbc" ancestor="e1d3f9d2-3886-41be-9150-a18a2e5a649a"/>
       <element xsi:type="zenta:ZentaDiagramModel" name="Security Environment" id="fc1858b7-3d3e-4ef7-8f39-f102f3562097">
         <child xsi:type="zenta:DiagramObject" id="837a6044-17b4-4c81-bd63-3530c3c79e77" zentaElement="af66df89-4666-4e91-ad2b-977a5598c798">
@@ -511,7 +511,7 @@ The function is atomic: only a single transaction.</documentation>
           <bounds x="507" y="40" width="190" height="93"/>
         </child>
       </element>
-      <element xsi:type="zenta:BasicObject" name="There should be a way to certify digitally challenged people securely" id="c28009f1-c55c-4f64-a211-abf028789194" ancestor="e1d3f9d2-3886-41be-9150-a18a2e5a649a"/>
+      <element xsi:type="zenta:BasicObject" name="There should be a way to assure digitally challenged people securely" id="c28009f1-c55c-4f64-a211-abf028789194" ancestor="e1d3f9d2-3886-41be-9150-a18a2e5a649a"/>
     </folder>
     <folder name="2. Objectives" id="7c992c37-23ba-489c-b5cf-7e9b797662d7">
       <folder name="Environment objectives" id="175eec2a-eaae-4bf1-97a0-47fa20a3cec3">
@@ -563,7 +563,7 @@ The function is atomic: only a single transaction.</documentation>
           </child>
         </element>
         <element xsi:type="zenta:BasicObject" name="The web server accepts only HTTPS" id="4f20682f-f674-4885-9b35-783a5a21fd4d" ancestor="08a76696-f900-4576-89a9-77793d9a1ec0"/>
-        <element xsi:type="zenta:BasicObject" name="The ADA interface allows digitally challenged users without emailverification, and gives the offline version of the certificate to them" id="310029c5-e152-4de3-9277-ceb03b4bb90e" ancestor="08a76696-f900-4576-89a9-77793d9a1ec0"/>
+        <element xsi:type="zenta:BasicObject" name="The ADA interface allows digitally challenged users without emailverification, and gives the offline version of the assurance to them" id="310029c5-e152-4de3-9277-ceb03b4bb90e" ancestor="08a76696-f900-4576-89a9-77793d9a1ec0"/>
         <element xsi:type="zenta:BasicObject" name="Emails sent out are seen by second line assurers" id="ac4f785f-19f8-42f1-915f-8befbdbd9a33" ancestor="08a76696-f900-4576-89a9-77793d9a1ec0"/>
       </folder>
       <element xsi:type="zenta:BasicObject" name="The app should use the mobile's camera to take pictures on the spot" id="70c3c246-0b70-4c0d-b7e0-2d664e0ec84a" ancestor="9e9b9272-dfb5-46f0-b22e-9ff53f40c4ab"/>
@@ -666,8 +666,8 @@ These accounts are only for a short time period.
         </child>
       </element>
       <element xsi:type="zenta:BasicObject" name="Appmagyar registration interface" id="cfc5cd2b-6027-4776-ab65-ee5b06c49ced" ancestor="460b77b0-9540-480a-86b1-00541ccb1fd5"/>
-      <element xsi:type="zenta:BasicObject" name="Certification interface" id="c6a7ba4c-93b6-4dea-a11d-7e08e7d5100a" ancestor="460b77b0-9540-480a-86b1-00541ccb1fd5"/>
-      <element xsi:type="zenta:BasicObject" name="Certification support" id="1270d547-af96-4c47-97e5-2981722023a2" ancestor="e1dcc278-0e1a-4399-99a4-04706212b230"/>
+      <element xsi:type="zenta:BasicObject" name="Assurance interface" id="c6a7ba4c-93b6-4dea-a11d-7e08e7d5100a" ancestor="460b77b0-9540-480a-86b1-00541ccb1fd5"/>
+      <element xsi:type="zenta:BasicObject" name="Assurance support" id="1270d547-af96-4c47-97e5-2981722023a2" ancestor="e1dcc278-0e1a-4399-99a4-04706212b230"/>
       <element xsi:type="zenta:BasicObject" name="Assurer" id="f839be7e-1a33-4e17-8b48-dbc555b698e6" ancestor="32051ff5-be96-4587-bac6-f4918e34ad87"/>
       <element xsi:type="zenta:BasicObject" name="Customer" id="061efe6e-8bb9-4ab7-87a4-ed09d0aa9f12" ancestor="32051ff5-be96-4587-bac6-f4918e34ad87"/>
       <element xsi:type="zenta:BasicObject" name="RA functionality" id="9dba469c-6332-4fd0-a82f-1bb5efa6ce06" ancestor="e1dcc278-0e1a-4399-99a4-04706212b230"/>
@@ -815,7 +815,7 @@ In this phase the assurers should use the web frontend and ADA separately.
           </element>
         </folder>
         <folder name="1. requirements" id="63b07103-e811-4114-a0c6-9b6c85754c00">
-          <element xsi:type="zenta:BasicObject" name="An email address in the domain &quot;digitallychallenged.adatom.hu&quot; is randomly generated for these users, and the &quot;_offline&quot; postfixed certificate is given to them." id="dd8b2e07-48e1-4233-b904-d58485bdba26" ancestor="0020aeda-e1d9-452e-915f-8904978752e7"/>
+          <element xsi:type="zenta:BasicObject" name="An email address in the domain &quot;digitallychallenged.adatom.hu&quot; is randomly generated for these users, and the &quot;_offline&quot; postfixed assurance is given to them." id="dd8b2e07-48e1-4233-b904-d58485bdba26" ancestor="0020aeda-e1d9-452e-915f-8904978752e7"/>
         </folder>
         <element xsi:type="zenta:ZentaDiagramModel" name="Support for the digitally challenged" id="49454c08-bf57-443c-ac4c-6c7f38fd718c" connectionRouterType="1">
           <child xsi:type="zenta:DiagramObject" id="3f3614a7-b6fb-44ba-8aad-e61ddf5bd654" zentaElement="80d7552c-ad64-4962-9d8a-53f62e7e4bd2">
@@ -1013,12 +1013,12 @@ see functions register, prepareAuthInterfaceData
           <element xsi:type="zenta:BasicObject" name="The assurer can request the next random package" id="042433b6-8f6c-4084-8fd8-2709fd20f19c" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a"/>
           <element xsi:type="zenta:BasicObject" name="The assurer is authenticated against ADA" id="e02ff52b-837e-4bd0-8937-68c38c75fe9a" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a"/>
           <element xsi:type="zenta:BasicObject" name="The assurers are authenticated" id="6bec5947-d755-42c4-841d-899f7ded527e" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a"/>
-          <element xsi:type="zenta:BasicObject" name="The certifier either accepts the package and issues the certificate, or rejects the packages, and enters the rejection reason." id="f9aa83ed-bc2d-4d59-a0dd-574cc8adcf39" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a"/>
+          <element xsi:type="zenta:BasicObject" name="The assurer either accepts the package and issues the assurance, or rejects the packages, and enters the rejection reason." id="f9aa83ed-bc2d-4d59-a0dd-574cc8adcf39" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a"/>
           <element xsi:type="zenta:BasicObject" name="the rejection email contains an appropriate header and footer" id="83e79810-642e-4aa1-bd89-440780d0dd65" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a"/>
           <element xsi:type="zenta:BasicObject" name="the rejection email is cc-ed to the email account used by the support group" id="92e09426-adcd-484f-ab13-c3cd09a1d792" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a"/>
           <element xsi:type="zenta:BasicObject" name="the rejection reason is not sent if the user is digitally challenged" id="30aae11b-d854-4926-b32d-87d35e0194b0" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a"/>
           <element xsi:type="zenta:BasicObject" name="the second line assurer can request packages for a given email address" id="4a967278-1ef1-448b-8f86-362f5489e9a0" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a"/>
-          <element xsi:type="zenta:BasicObject" name="the simple and second-line certifiers are authorized by the appropriate ADA certificate" id="2abf8ad2-4e0f-4c28-98a5-1ef0a461a6e3" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a">
+          <element xsi:type="zenta:BasicObject" name="the simple and second-line assurers are authorized by the appropriate ADA assurance" id="2abf8ad2-4e0f-4c28-98a5-1ef0a461a6e3" ancestor="b16e0f12-f380-46e5-b82f-0b3f43d8200a">
             <documentation>assurer.magyar for simple certifier
 assurer.secondline for second line assurer
 </documentation>
