@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppMagyar</string>
+    <string name="main_title">ADA webmagyar tanúsítás</string>
+
+    <string name="main_prompt_email">Email</string>
+    <string name="main_prompt_temporary_email">Nincs email címem, kérek egy egyszer használatosat.</string>
+    <string name="main_hint_temporary_email">
+        Elfogadom, hogy ilyen cím használata esetén, amennyiben a személyazonosságom hitelt érdemlő megállapítása nem
+        sikerül elsőre, akkor nem lesz lehetőségem javításra, a regisztrációm és az ezzel leadott szavazatom pedig elvész.
+    </string>
+
+    <string name="main_photo_idcard_button">A személyi igazolvány fotózása</string>
+    <string name="main_photo_adcard_1_button">A lakcímkártya fotózása</string>
+    <string name="main_photo_adcard_2_button">A lakcímkártya fotózása</string>
+    <string name="main_photo_portrait_button">Arckép fotózása</string>
+
+    <string name="main_action_send">Elküld</string>
+</resources>
